@@ -1,25 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import experience from './const/experience.const';
+import Header from './components/Header';
+import MainSection from './components/MainSection';
+import SideSection from './components/SideSection';
+import style from "./App.module.css";
+import technologies from './const/technologies.const';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header/>
+      <div className={style.Data}>
+        <SideSection technologies={technologies}/>
+        <MainSection experience={experience}/>
+      </div>
+    </>
   );
 }
 

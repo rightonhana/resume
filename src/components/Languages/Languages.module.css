@@ -1,0 +1,6 @@
+.Languages {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1.5vw 0 0 1vw;
+}

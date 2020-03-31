@@ -1,0 +1,19 @@
+.Marital {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1.5vw 0 1.5vw 1vw;
+}
+
+.Icon {
+    max-height: 1vw;
+    width: 2vw;
+}
+
+.Icon path {
+    fill: var(--resume-secondary);
+}
+
+.MaritalStatus {
+    padding-right: .5vw;
+}

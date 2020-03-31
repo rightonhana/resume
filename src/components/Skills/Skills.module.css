@@ -1,0 +1,5 @@
+.Skills {
+    margin: 1.5vw;
+    display: flex;
+    flex-wrap: wrap;
+}

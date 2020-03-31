@@ -1,0 +1,28 @@
+.Header {
+    background-color: var(--resume-secondary);
+    min-height: 15vw;
+    max-height: 15vw; 
+    color: var(--resume-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+}
+
+.HeaderImage {
+    max-height: 10vw;
+}
+
+.HeaderImgSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+}
+
+.HeaderNameSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65vw;
+}

@@ -1,0 +1,33 @@
+.Url {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1.5vw 0 1.5vw 1vw;
+}
+
+.Icon {
+    max-height: 1vw;
+    width: 2vw;
+}
+
+.Icon path {
+    fill: var(--resume-secondary);
+}
+
+.UrlAddress {
+    padding-right: .5vw;
+}
+
+a.UrlAddress:link {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a.UrlAddress:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a.UrlAddress:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,9 @@
+.MainSection {
+    background-color: var(--resume-primary);
+    width: 65vw;
+}
+
+.Title {
+    max-height: 1.3em;
+    width: 2em;
+}

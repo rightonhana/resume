@@ -1,0 +1,17 @@
+.Project {
+    margin: 1.5vw 0 0 1.5vw;
+}
+
+.Project div {
+    margin-top: .3vw;
+}
+
+.Project p {
+    margin: 0 0 0 1vw;
+    padding: 0;
+}
+
+.Client {
+    font-weight: bold;
+    color: var(--resume-clients);
+}

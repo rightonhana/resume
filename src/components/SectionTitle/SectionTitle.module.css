@@ -1,0 +1,10 @@
+.SectionTitle {
+    background-color: var(--resume-secondary);
+    color: var(--resume-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5vw;
+    font-weight: bold;
+    margin: 2vw 1vw 0 1vw;
+}

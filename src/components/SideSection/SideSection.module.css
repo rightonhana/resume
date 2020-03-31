@@ -1,0 +1,11 @@
+.SideSection {
+    background-color: var(--resume-side-section);
+    margin: 0;
+    padding: 0;
+    width: 35vw;
+}
+
+.Title {
+    max-height: 1.3em;
+    width: 2em;
+}

@@ -1,0 +1,1 @@
+export { default, Phone } from "./Phone";

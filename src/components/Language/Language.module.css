@@ -1,0 +1,21 @@
+.Language {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1.5vw 0 0 1vw;
+    color: var(--resume-secondary);
+}
+
+.Icon {
+    max-height: 1vw;
+    width: 2vw;
+}
+
+.Icon path {
+    fill: var(--resume-secondary);
+}
+
+.LanguageName {
+    font-weight: bold;
+    padding-right: .5vw;
+}

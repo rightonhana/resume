@@ -10,11 +10,11 @@ export const experience = [
 		experience: [
 			{
 				client: "RealEyes Media",
-				appDescription: "Developed a video player for Disney - Fox Sport Go",
+				appDescription: "Developed a video player for Disney - Fox Sport Go.",
 				task: [
 					"Developed new features.",
-					"Performed bug fixing",
-					"Optimized the general UI/UX (a11y)"
+					"Performed bug fixing.",
+					"Optimized the general UI/UX (a11y)."
 				],
 				technologies: [
 					"HLS",
@@ -61,8 +61,8 @@ export const experience = [
 				task: [
 					"Developed new features.",
 					"Performed bug fixing and code reviews.",
-					"Optimized the general UI/UX (a11y)",
-					"Improved the overall code quality"
+					"Optimized the general UI/UX (a11y).",
+					"Improved the overall code quality."
 				],
 				technologies: [
 					"HLS",
@@ -89,8 +89,8 @@ export const experience = [
 				client: "Motiv Information Technology",
 				appDescription: "Company webpage.",
 				task: [
-					"Created from scratch",
-					"Applied UX designs"
+					"Created from scratch.",
+					"Applied UX designs."
 				],
 				technologies: [
 					"Wordpress"
@@ -98,11 +98,11 @@ export const experience = [
 			},
 			{
 				client: "Corcentric",
-				appDescription: "",
+				appDescription: "Development of a new Corcentric Portal.",
 				task: [
 					"Developed new features and components.",
-					"Performed bug fixing",
-					"Optimized the general UI/UX"
+					"Performed bug fixing.",
+					"Optimized the general UI/UX."
 				],
 				technologies: [
 					"Angular 7",
@@ -122,7 +122,7 @@ export const experience = [
 				task: [
 					"Improved the general UX (a11y, user interaction, best practices) and the general code structure.",
 					"Limited enforcement in a code base. Optimized the UI.",
-					"Developed components and code review"
+					"Developed components and code review."
 				],
 				technologies: [
 					"Angular 5",
@@ -141,8 +141,8 @@ export const experience = [
 				task: [
 					"Developed new features.",
 					"Performed bug fixing and code reviews.",
-					"Optimized the general UI/UX (a11y)",
-					"Improved the overall code quality"
+					"Optimized the general UI/UX (a11y).",
+					"Improved the overall code quality."
 				],
 				technologies: [
 					"AngularJS",
@@ -166,9 +166,9 @@ export const experience = [
 				client: "Royal Caribbean",
 				appDescription: "App for cruise employee pre-check (contracts, life insurance, emergency contacts, health state, and so on).",
 				task: [
-					"Developed highly accessible (keyboard controls, screen reader support, high-contrast, and so on) material design component",
-					"Followed mockups, styling, layout and code review",
-					"Performed bug fixing"
+					"Developed highly accessible (keyboard controls, screen reader support, high-contrast, and so on) material design component.",
+					"Followed mockups, styling, layout and code review.",
+					"Performed bug fixing."
 				],
 				technologies: [
 					"Angular 6/7",

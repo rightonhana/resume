@@ -1,14 +1,16 @@
-import ProjectData from "../../types/ProjectData";
+import ProjectData from "./ProjectData";
 
-export interface ExperienceProps {
+export interface ExperienceData {
 	/** Company name */
 	company: string;
 	/** Company color */
 	color: string;
 	/** Job title */
 	jobTitle: string;
-	/** Work period */
+	/** Period worked */
 	period: string;
-	/** Projects info */
+	/** Projects */
 	experience: ProjectData[];
-};
+}
+
+export default ExperienceData;

@@ -1,1 +1,0 @@
-export { default, SideSection } from "./SideSection";

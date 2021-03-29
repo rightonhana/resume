@@ -1,21 +1,29 @@
 {
-  "short_name": "rightonhana resume",
-  "name": "Maria Florencia Gonzalez - @rightonhana resume",
-  "icons": [
-    {
-      "src": "logo/192.png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo/512.png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": "/",
-  "display": "standalone",
-  "theme_color": "#0F0E17",
-  "background_color": "#0F0E17",
-  "lang": "English",
-  "orientation": "any",
-  "description": "@rightonhana's resume"
-}
+	"short_name": "rightonhana-resume",
+	"name": "Florencia Gonzalez - @rightonhana resume",
+	"icons": [
+	  {
+		"src": "/logo/192.png",
+		"type": "image/png",
+		"sizes": "192x192"
+	  },
+	  {
+		"src": "/logo/512.png",
+		"type": "image/png",
+		"sizes": "512x512"
+	  },
+	  {
+		"sizes": "512x512",
+		"src": "/logo/512.maskable.png",
+		"type": "image/png",
+		"purpose": "maskable"
+	  }
+	],
+	"start_url": "/",
+	"display": "standalone",
+	"theme_color": "#FFFFFF",
+	"background_color": "#FFFFFF",
+	"lang": "English",
+	"orientation": "any",
+	"description": "@rightonhana's resume"
+  }

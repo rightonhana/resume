@@ -1,11 +1,6 @@
-import ExperienceData from "../../interfaces/ExperienceData.interface";
+import ExperienceData from "../../types/ExperienceData";
 
-/**
- * Props
- */
 export interface WorkExperienceProps {
-    /** Experience data */
-    experience: ExperienceData[];
-}
-
-export default WorkExperienceProps;
+	/** Experience data */
+	experience: ExperienceData[];
+};

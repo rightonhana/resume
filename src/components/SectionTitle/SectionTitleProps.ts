@@ -1,13 +1,4 @@
-import { ReactNode } from "react";
-
-/**
- * Props
- */
 export interface SectionTitleProps {
-    /** Section title */
-    title: string;
-    /** Children */
-    children: ReactNode;
+	/** Section title */
+	title: string;
 }
-
-export default SectionTitleProps;

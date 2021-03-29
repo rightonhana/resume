@@ -1,12 +1,12 @@
-export interface ProjectProps {
-	/** Client */
+export interface ProjectData {
+	/** Client name */
 	client: string;
-	/** Company color */
-	color: string;
-	/** App Description */
+	/** App description */
 	appDescription: string;
 	/** Tasks */
 	task: string[];
 	/** Technologies used */
 	technologies: string[];
-};
+}
+
+export default ProjectData;

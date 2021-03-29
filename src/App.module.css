@@ -1,0 +1,11 @@
+.Container {
+	padding: 2rem;
+	font-size: 1.2rem;
+}
+
+.Sections {
+	display: grid;
+	grid-template-columns: 35% auto;
+	grid-column-gap: 2rem;
+}
+

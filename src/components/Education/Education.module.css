@@ -1,28 +1,18 @@
 .Education {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: nowrap;
-    margin: 1.5vw 0 1.5vw 1vw;
-    color: var(--resume-secondary);
-}
-
-.Icon {
-    max-height: 1vw;
-    width: 2vw;
-}
-
-.Icon path {
-    fill: var(--resume-secondary);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: nowrap;
+	margin: 1.5rem 0 1.5rem 1rem;
 }
 
 .Date {
-    background-color: var(--resume-secondary);
-    color: var(--resume-primary);
-    border-radius: 5px;
-    padding: .2vw;
+	background-color: var(--resume-secondary);
+	color: var(--resume-primary);
+	border-radius: 5px;
+	padding: .2rem;
 }
 
 .EducationName {
-    padding-right: .5vw;
+	padding-right: .5rem;
 }

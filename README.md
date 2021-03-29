@@ -1,7 +1,8 @@
 ## rightonhana-resume
 
-Maria Florencia Gonzalez resume 
+Florencia Gonzalez's resume 
 
 ### Tech stack
 - React
+- Vite
 - CSS modules

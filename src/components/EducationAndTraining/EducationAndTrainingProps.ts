@@ -1,11 +1,8 @@
-import EducationData from "../../interfaces/EducationData.interface";
+import { EducationData } from "../../types/EducationData";
 
-/**
- * Props
- */
 export interface EducationAndTrainingProps {
-    /** Experience data */
-    education: EducationData[];
+	/** Experience data */
+	education: EducationData[];
 }
 
 export default EducationAndTrainingProps;

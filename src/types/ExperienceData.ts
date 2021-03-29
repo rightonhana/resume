@@ -1,6 +1,6 @@
 import ProjectData from "./ProjectData";
 
-export interface ExperienceData {
+export type ExperienceData = {
 	/** Company name */
 	company: string;
 	/** Company color */

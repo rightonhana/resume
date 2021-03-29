@@ -1,4 +1,4 @@
-export interface ProjectData {
+export type ProjectData = {
 	/** Client name */
 	client: string;
 	/** App description */

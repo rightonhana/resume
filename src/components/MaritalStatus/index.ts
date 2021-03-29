@@ -1,1 +1,0 @@
-export { default, MaritalStatus } from "./MaritalStatus";

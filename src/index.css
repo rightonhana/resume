@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-  --resume-primary: #fff;
-  --resume-secondary: #0F0E17;
-  --resume-side-section: #DDDDDD;
-  --resume-clients: #008080;
+	--resume-primary: #FFF;
+	--resume-secondary: #0F0E17;
 }
 
 html, body {
-  min-height: 100%;
+	min-height: 100%;	
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  -webkit-print-color-adjust: exact;
-  margin: 0;
-  padding: 0;
-  font-size: 1.5vw;
+	background-color: var(--resume-primary);
+	font-family: 'Roboto', sans-serif;
+	-webkit-print-color-adjust: exact;
+	color: var(--resume-secondary);
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
 }

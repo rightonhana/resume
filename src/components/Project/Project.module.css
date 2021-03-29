@@ -1,17 +1,17 @@
 .Project {
-    margin: 1.5vw 0 0 1.5vw;
+	margin: 1rem;
 }
 
 .Project div {
-    margin-top: .3vw;
+	margin-top: .5rem;
 }
 
 .Project p {
-    margin: 0 0 0 1vw;
-    padding: 0;
+	margin: 0 0 .5rem 4rem;
+	padding: 0;
 }
 
 .Client {
-    font-weight: bold;
-    color: var(--resume-clients);
+	font-weight: bold;
+	color: var(--company-color);
 }

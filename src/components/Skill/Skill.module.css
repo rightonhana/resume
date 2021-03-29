@@ -1,11 +1,11 @@
 .Skill {
-    border-radius: 5px;
-    background-color: var(--resume-secondary);
-    color: var(--resume-primary);
-    margin: .8vw;
-    line-height: 2em;
+	border-radius: 5px;
+	background-color: var(--resume-secondary);
+	color: var(--resume-primary);
+	margin: 0 .8rem .8rem 0;
+	line-height: 2rem;
 }
 
 .SkillName {
-    padding: 1vw;
+	padding: 1rem;
 }

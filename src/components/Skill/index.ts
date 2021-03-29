@@ -1,1 +1,0 @@
-export { default, Skill } from "./Skill";

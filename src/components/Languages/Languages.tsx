@@ -1,14 +1,17 @@
 import React, { FC } from "react";
+import { SectionTitle } from "../SectionTitle/sectionTitle";
 import style from "./Languages.module.css";
-import Language from "../Language/Language";
 
 export const Languages: FC<{}> = ({
-  ...props
+	...props
 }) => (
-  <div className={style.Languages} {...props}>
-    <Language language="English" level="Upper Intermediate" />
-    <Language language="Spanish" level="Native" />
-  </div>
+	<section className={style.Languages} {...props}>
+		<SectionTitle title="Languages" />
+		<span>
+			<strong>English</strong>: Upper Intermediate
+		</span>
+		<span>
+			<strong>Spanish</strong>: Native
+		</span>
+	</section>
 );
-
-export default Languages;

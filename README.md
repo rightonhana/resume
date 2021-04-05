@@ -1,6 +1,6 @@
 ## rightonhana-resume
 
-Florencia Gonzalez's resume 
+[Florencia Gonzalez's resume](https://rightonhana.github.io/rightonhana-resume/)
 
 ### Tech stack
 - React

@@ -1,4 +1,4 @@
-## rightonhana-resume
+## resume
 
 [Florencia Gonzalez's resume](https://rightonhana.github.io/resume/)
 

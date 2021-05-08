@@ -9,3 +9,15 @@
 	justify-content: center;
 	margin: 1rem 0;
 }
+
+.AboutMe {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Intro {
+	margin: 2rem;
+	width: 80vmin;
+	line-height: 2rem;
+}

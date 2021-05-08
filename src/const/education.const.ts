@@ -3,11 +3,11 @@
  */
 export const education = [
 	{
-		name: "UTN - Software Developer Technician",
+		name: "Universidad Tecnologica Nacional - Software Developer Technician",
 		date: "DEC-2019"
 	},
 	{
-		name: "UTN - 111 MIL",
+		name: "Universidad Tecnologica Nacional - 111 MIL - Java developer",
 		date: "NOV-2018",
 		duration: "1 year (Extended to 2 years)",
 		Output: "Java developer"

@@ -3,13 +3,14 @@
 	justify-content: flex-start;
 	align-items: center;
 	flex-wrap: nowrap;
-	margin: 1.5rem 0 1.5rem 1rem;
+	line-height: 2rem;
 }
 
 .Date {
-	background-color: var(--resume-secondary);
-	color: var(--resume-primary);
+	border: .2rem solid var(--resume-secondary);
+	font-weight: bold;
 	border-radius: 5px;
+	font-size: .8rem;
 	padding: .2rem;
 }
 

@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import EducationAndTrainingProps from "./EducationAndTrainingProps";
 import { Education } from "../Education/Education";
 import { SectionTitle } from "../SectionTitle/sectionTitle";
+import styles from "./EducationAndTraining.module.css";
 
 export const EducationAndTraining: FC<EducationAndTrainingProps> = ({
 	education,
@@ -15,7 +16,9 @@ export const EducationAndTraining: FC<EducationAndTrainingProps> = ({
 	return (
 		<section {...props}>
 			<SectionTitle title="Education"/>
-			{educationData}
+			<div className={styles.EducationData}>
+				{educationData}
+			</div>
 		</section>
 	)
 };

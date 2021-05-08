@@ -8,6 +8,6 @@ export const Education: FC<EducationProps> = ({
 	...props
 }) => (
 	<div className={style.Education} {...props}>
-		<span> {educationName} <span className={style.Date} >{date}</span></span>
+		<span>- {educationName} <span className={style.Date} >{date}</span></span>
 	</div>
 );

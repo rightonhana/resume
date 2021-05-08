@@ -1,7 +1,6 @@
 import React from 'react';
 import { Introduction } from './components/Introduction/Introduction';
 import { introduction } from './const/introduction.const';
-import styles  from "./App.module.css";
 import { PersonalInfo } from './components/PersonalInfo/PersonalInfo';
 import { Skills } from './components/Skills/Skills';
 import {technologies} from './const/technologies.const';
@@ -12,20 +11,14 @@ import { EducationAndTraining } from './components/EducationAndTraining/Educatio
 import { education } from './const/education.const';
 
 export const App = () => (
-	<main className={styles.Container}>
-		<div className={styles.Sections}>
-			<div>
-				<Introduction intro={introduction}/>
-				<PersonalInfo/>
-				<Skills skills={technologies}/>
-				<Languages/>
-			</div>
-			<div>
-				<WorkExperience experience={experience}/>
-				<EducationAndTraining education={education}/>
-			</div>
-		</div>
-	</main>
+	<>
+		<Introduction intro={introduction}/>
+		<WorkExperience experience={experience}/>
+		<Skills skills={technologies}/>
+		<EducationAndTraining education={education}/>
+		<PersonalInfo/>
+		<Languages/>
+	</>
 );
 
 export default App;

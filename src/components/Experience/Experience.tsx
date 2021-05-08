@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { ExperienceProps } from "./ExperienceProps";
 import { Project } from "../Project/Project";
-import style from "./Experience.module.css";
+import styles from "./Experience.module.css";
 
 export const Experience: FC<ExperienceProps> = ({
 	company,
@@ -20,8 +20,8 @@ export const Experience: FC<ExperienceProps> = ({
 		key={index}
 	/>);
 	return (
-	<div className={style.Experience} style={{["--company-color" as string]: color }} {...props}>
-		<header className={style.Header}>
+	<div className={styles.Experience} style={{["--company-color" as string]: color }} {...props}>
+		<header className={styles.Header}>
 			{company} - {jobTitle} - {period}
 		</header>
 		<div>

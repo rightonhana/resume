@@ -1,8 +1,9 @@
-.Info {
+.Data {
 	display: flex;
 	flex-direction: column;
+	margin: 2rem;
 }
 
-.Info span {
+.Data span {
 	margin-bottom: .5rem;
 }

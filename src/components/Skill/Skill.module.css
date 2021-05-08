@@ -1,7 +1,7 @@
 .Skill {
 	border-radius: 5px;
-	background-color: var(--resume-secondary);
-	color: var(--resume-primary);
+	border: .2rem solid var(--resume-secondary);
+	font-weight: bold;
 	margin: 0 .8rem .8rem 0;
 	line-height: 2rem;
 }

@@ -12,7 +12,7 @@ export const Skills: FC<SkillsProps> = ({
 	return (
 		<section>
 			<SectionTitle title="Skills"/>
-			<div className={styles.Skills} {...props}>
+			<div className={styles.SkillsList} {...props}>
 				{skillBoxes}
 			</div>
 		</section>

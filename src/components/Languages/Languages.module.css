@@ -1,9 +1,10 @@
-.Languages {
+.LanguagesList {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+	margin: 2rem;
 }
 
-.Languages span {
+.LanguagesList span {
 	margin-bottom: .5rem;
 }

@@ -10,7 +10,7 @@ export const Skills: FC<SkillsProps> = ({
 }) => {
 	const skillBoxes = skills.map((skill, index) => <Skill key={index} skill={skill}/>);
 	return (
-		<section>
+		<section className={styles.Skills}>
 			<SectionTitle title="Skills"/>
 			<div className={styles.SkillsList} {...props}>
 				{skillBoxes}

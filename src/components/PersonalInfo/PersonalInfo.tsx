@@ -10,6 +10,7 @@ export const PersonalInfo: FC<{}> = ({...props}) => (
 			<span><strong>From</strong>: Mar del Plata, Buenos Aires, Argentina</span>
 			<span><strong>Living in</strong>: Bellevue, Washington, USA</span>
 			<span><strong>Marital status</strong>: Married</span>
+			<span><strong>E-Mail</strong>: rightonhana@gmail.com</span>
 			<span><strong>Contact</strong>: <a href="https://rightonhana.me" rel="noopener noreferrer">rightonhana.me</a></span>
 		</div>
 	</section>

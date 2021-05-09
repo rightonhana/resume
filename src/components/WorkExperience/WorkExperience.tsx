@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import { SectionTitle } from "../SectionTitle/sectionTitle";
 import { Experience } from "../Experience/Experience";
 import { WorkExperienceProps } from "./WorkExperienceProps";
+import styles from "./WorkExperience.module.css";
 
 export const WorkExperience: FC<WorkExperienceProps> = ({
 	experience,
@@ -16,7 +17,7 @@ export const WorkExperience: FC<WorkExperienceProps> = ({
 		experience={work.experience}
 	/>);
 	return (
-		<section {...props}>
+		<section className={styles.WorkExperience} {...props}>
 			<SectionTitle title="Experience"/>
 			{workData}
 		</section>

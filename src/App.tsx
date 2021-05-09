@@ -1,24 +1,20 @@
 import React from 'react';
 import { Introduction } from './components/Introduction/Introduction';
-import { introduction } from './const/introduction.const';
-import { PersonalInfo } from './components/PersonalInfo/PersonalInfo';
 import { Skills } from './components/Skills/Skills';
 import {technologies} from './const/technologies.const';
 import { WorkExperience } from './components/WorkExperience/WorkExperience';
 import { experience } from './const/experience.const';
-import { Languages } from './components/Languages/Languages';
 import { EducationAndTraining } from './components/EducationAndTraining/EducationAndTraining';
 import { education } from './const/education.const';
+import styles from "./App.module.css";
 
 export const App = () => (
-	<>
-		<Introduction intro={introduction}/>
+	<div className={styles.App}>
+		<Introduction/>
 		<WorkExperience experience={experience}/>
 		<Skills skills={technologies}/>
 		<EducationAndTraining education={education}/>
-		<PersonalInfo/>
-		<Languages/>
-	</>
+	</div>
 );
 
 export default App;

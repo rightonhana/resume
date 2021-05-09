@@ -14,7 +14,7 @@ export const EducationAndTraining: FC<EducationAndTrainingProps> = ({
 		date={edu.date ? edu.date : ""}
 	/>);
 	return (
-		<section {...props}>
+		<section className={styles.EducationAndTraining} {...props}>
 			<SectionTitle title="Education"/>
 			<div className={styles.EducationData}>
 				{educationData}

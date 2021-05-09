@@ -1,3 +1,8 @@
 .EducationData {
 	margin: 2rem;
 }
+
+.EducationAndTraining {
+	width: 100vmin;
+	/**TODO: not working*/
+}

@@ -7,6 +7,7 @@ export const experience = [
 		color: "#F44611",
 		jobTitle: "SOFTWARE ENGINEER",
 		period: "JUL, 2019 to JAN, 2020",
+		location: "Argentina",
 		experience: [
 			{
 				client: "RealEyes Media",
@@ -84,6 +85,7 @@ export const experience = [
 		color: "#008080",
 		jobTitle: "SOFTWARE ENGINEER",
 		period: "FEB, 2019 to JUL, 2019",
+		location: "Argentina",
 		experience: [
 			{
 				client: "Motiv Information Technology",
@@ -161,6 +163,7 @@ export const experience = [
 		color: "#2D572C",
 		jobTitle: "SOFTWARE ENGINEER",
 		period: "JUN, 2018 to FEB, 2019",
+		location: "Argentina",
 		experience: [
 			{
 				client: "Royal Caribbean",

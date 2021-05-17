@@ -14,6 +14,7 @@ export const WorkExperience: FC<WorkExperienceProps> = ({
 		color={work.color}
 		jobTitle={work.jobTitle}
 		period={work.period}
+		location={work.location}
 		experience={work.experience}
 	/>);
 	return (

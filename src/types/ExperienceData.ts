@@ -9,6 +9,8 @@ export type ExperienceData = {
 	jobTitle: string;
 	/** Period worked */
 	period: string;
+	/** Location */
+	location: string;
 	/** Projects */
 	experience: ProjectData[];
 }

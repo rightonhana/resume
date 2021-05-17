@@ -9,6 +9,8 @@ export interface ExperienceProps {
 	jobTitle: string;
 	/** Work period */
 	period: string;
+	/** Location */
+	location: string;
 	/** Projects info */
 	experience: ProjectData[];
 };

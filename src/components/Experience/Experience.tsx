@@ -8,6 +8,7 @@ export const Experience: FC<ExperienceProps> = ({
 	color,
 	jobTitle,
 	period,
+	location,
 	experience,
 	...props
 }) => {
@@ -22,7 +23,7 @@ export const Experience: FC<ExperienceProps> = ({
 	return (
 	<div className={styles.Experience} style={{["--company-color" as string]: color }} {...props}>
 		<header className={styles.Header}>
-			{company} - {jobTitle} - {period}
+			{company} - {jobTitle} - {period} - {location}
 		</header>
 		<div>
 			{projects}

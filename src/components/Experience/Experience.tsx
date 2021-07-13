@@ -18,6 +18,7 @@ export const Experience: FC<ExperienceProps> = ({
 		appDescription={project.appDescription}
 		task={project.task}
 		technologies={project.technologies}
+		personalImpact={project.personalImpact}
 		key={index}
 	/>);
 	return (

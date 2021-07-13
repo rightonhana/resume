@@ -8,6 +8,7 @@ export const Project: FC<ProjectProps> = ({
 	appDescription,
 	task,
 	technologies,
+	personalImpact,
   ...props
 }) => {
 	const technologiesUsed = technologies.map((skill, index) => index !== (technologies.length - 1) ? `${skill}, ` : `${skill}.`);
@@ -25,6 +26,9 @@ export const Project: FC<ProjectProps> = ({
 			</div>
 			<div>
 				<strong>Technologies:</strong> {technologiesUsed}
+			</div>
+			<div>
+				<strong>Personal impact:</strong> {personalImpact}
 			</div>
 		</div>
 	);

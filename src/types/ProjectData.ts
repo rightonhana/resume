@@ -7,6 +7,8 @@ export type ProjectData = {
 	task: string[];
 	/** Technologies used */
 	technologies: string[];
+	/** Personal impact */
+	personalImpact: string;
 }
 
 export default ProjectData;

@@ -65,6 +65,7 @@ export const experience = [
 					"Confluence",
 					"Scrum"
 				],
+				personalImpact: "Enforced better TypeScript practices on the team and taught them some features about that language that they didn't knew at the time, which ended up improving the overall quality and maintainability of the project."
 			},
 			{
 				client: "RealEyes Media",
@@ -86,7 +87,8 @@ export const experience = [
 					"Jira",
 					"Confluence",
 					"Scrum"
-				]
+				],
+				personalImpact: "Once I started working on this project I did some debugging on the code that was written before I was hired, and I found critical bugs on production that the client wasn't aware of, related to video decoding. This made me a key member of the team pretty early on with this client. Similarly to the other project for RealEyes Media, I introduced some new features and good practices with TypeScript."
 			},
 			{
 				client: "RealEyes Media",
@@ -109,6 +111,7 @@ export const experience = [
 					"Confluence",
 					"Scrum"
 				],
+				personalImpact: "I did some research on my spare time (on my own will) to find alternatives to deprecated or old tools being used on this product, which ended up in a successful proposal to the client to replace them. The research included details about API parity, licensing, and last update."
 			}
 		]
 	},
@@ -128,7 +131,8 @@ export const experience = [
 				],
 				technologies: [
 					"Wordpress"
-				]
+				],
+				personalImpact: "This was my last project while working for this company, and I work on it for 2 weeks. The only thing worth mentioning is that I had to learn Wordpress from scratch (with only some knowledge about PHP in my background) to work for this project."
 			},
 			{
 				client: "Corcentric",
@@ -149,6 +153,7 @@ export const experience = [
 					"Jira",
 					"Scrum"
 				],
+				personalImpact: "The project had components with 2000+ lines of code, so as a newcomer to the project I noticed that the ramp-up process wasn't the best and the maintenance of those huge components wasn't ideal either, so I proposed to split those components into smaller parts to make them easier to maintain. There was some push-back initially, but after 1 sprint we started working on code splitting."
 			},
 			{
 				client: "Ors Group",
@@ -167,7 +172,8 @@ export const experience = [
 					"Angular Material UI",
 					"GIT",  
 					"Scrum"
-				]
+				],
+				personalImpact: "I introduced UX best practices from the coding side to the project. My teammates weren't aware of some practices to improve the accessibility of a WebApp like adding area-labels or titles attributes for screen readers, having a good contrast (AA or AAA), the importance of typography sizes, the importance of colors for action buttons (for example a cancel button should be red, never blue or green), and so on. I also helped with some TypeScript and Angular good practices and introduced some new features to the team."
 			},
 			{
 				client: "Motiv Benefits",
@@ -187,6 +193,7 @@ export const experience = [
 					"GIT",
 					"Kanban"
 				],
+				personalImpact: "Improved the overall quality of the HTML structure of the app. The project was using divs for everything (buttons, tables, and so on), so once I joined we started doing some changes so that buttons were turned into actual button elements, tables into table elements and so on. This improved the accessibility of the app drastically."
 			}
 		]
 	},
@@ -214,7 +221,8 @@ export const experience = [
 					"GIT",
 					"Jira",
 					"Scrum"
-				]
+				],
+				personalImpact: "I had to learn Angular by myself in less than 2 weeks because the clients initially wanted to have a React app, but then they changed their minds and chose Angular instead. Besides that, I introduced some good practices to my teammates about semantic HTML, like using the strong tag instead of bold, or the emphasis tag instead of italic, which has a good impact for screen readers."
 			}
 		]
 	}

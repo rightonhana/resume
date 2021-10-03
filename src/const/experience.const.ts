@@ -30,7 +30,8 @@ export const experience = [
 					"Jira",
 					"Confluence",
 					"Scrum"
-				]
+				],
+				personalImpact: "Took ownership of the Web Application, implemented internationalization strategy from scratch. Do the migration from Angular 7 to Angular 12 and implemented a tool to generate models and types base on the API Swagger. Doing the internationalization work I found some API architectural errors where the translations were distributed in different places with duplicated values instead to be centralized."
 			}
 		]
 	},

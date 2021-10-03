@@ -11,7 +11,7 @@ export const experience = [
 		experience: [
 			{
 				client: "Zonar Systems",
-				appDescription: "Maintenance application for fleets's inspections and defects (Vehicles inspections and defects).",
+				appDescription: "Maintenance an application for fleets's inspections and defects (Vehicles's inspections and defects).",
 				task: [
 					"Implemented Internationalization from scratch.",
 					"Migration from Angular 7 to Angular 12.",

@@ -3,6 +3,38 @@
  */
 export const experience = [
 	{
+		company: "WideNet Consulting",
+		color: "#FD9B28",
+		jobTitle: "Angular Web Developer",
+		period: "AUG, 2021 to PRESENT",
+		location: "United States",
+		experience: [
+			{
+				client: "Zonar Systems",
+				appDescription: "Maintenance application for fleets's inspections and defects (Vehicles inspections and defects).",
+				task: [
+					"Implemented Internationalization from scratch.",
+					"Migration from Angular 7 to Angular 12.",
+					"Performed bug fixing.",
+					"Improved the overall code quality.",
+					"Performed deploys."
+				],
+				technologies: [
+					"Angular 7/12",
+					"TypeScript",
+					"I18Next",
+					"HTML5",
+					"SASS",
+					"Karma",
+					"GIT",
+					"Jira",
+					"Confluence",
+					"Scrum"
+				]
+			}
+		]
+	},
+	{
 		company: "SPARK DIGITAL",
 		color: "#F44611",
 		jobTitle: "SOFTWARE ENGINEER",

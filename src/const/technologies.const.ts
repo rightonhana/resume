@@ -12,6 +12,8 @@ export const technologies = [
 	"UX",
 	"Angular Material UI",
 	"Jest",
+	"Karma",
+	"I18Next",
 	"Vite",
 	"Astro",
 	"Three.js",

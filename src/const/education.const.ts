@@ -3,8 +3,13 @@
  */
 export const education = [
 	{
+		name: "Dan Abramov - Just Javascript course",
+		date: "JUL-2021"
+	},
+	{
 		name: "Universidad Tecnologica Nacional - Software Developer Technician",
-		date: "DEC-2019"
+		date: "DEC-2019",
+		duration: "2 years"
 	},
 	{
 		name: "Universidad Tecnologica Nacional - 111 MIL - Java developer",

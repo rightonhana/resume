@@ -26,6 +26,8 @@ export const technologies = [
 	"Bootstrap",
 	"AngularJS",
 	"HLS",
+	"Kubernetes",
+	"Cypress",
 	"Scrum",
 	"Kanban",
 	"NPM",

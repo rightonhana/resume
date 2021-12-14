@@ -11,12 +11,13 @@ export const experience = [
 		experience: [
 			{
 				client: "Zonar Systems",
-				appDescription: "Maintenance an application for fleets's inspections and defects (Vehicles's inspections and defects).",
+				appDescription: "Maintenance an application for fleets's inspections and defects.",
 				task: [
 					"Implemented Internationalization from scratch.",
 					"Migration from Angular 7 to Angular 12.",
 					"Performed bug fixing.",
 					"Improved the overall code quality.",
+					"Setup new pipeline to deploy different versions of the app",
 					"Performed deploys."
 				],
 				technologies: [
@@ -26,7 +27,10 @@ export const experience = [
 					"HTML5",
 					"SASS",
 					"Karma",
+					"Cypress",
 					"GIT",
+					"Kubernetes",
+					"Google Cloud Services",
 					"Jira",
 					"Confluence",
 					"Scrum"

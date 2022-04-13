@@ -8,15 +8,26 @@ export const Project: FC<ProjectProps> = ({
 	appDescription,
 	task,
 	technologies,
-  ...props
+	...props
 }) => {
-	const technologiesUsed = technologies.map((skill, index) => index !== (technologies.length - 1) ? `${skill}, ` : `${skill}.`);
-	const tasks = task.map((activity, index) => <p key={index}>- {activity}</p>);
+	const technologiesUsed = technologies.map((skill, index) =>
+		index !== technologies.length - 1 ? `${skill}, ` : `${skill}.`
+	);
+	const tasks = task.map((activity, index) => (
+		<p key={index}>- {activity}</p>
+	));
 	return (
-		<div className={styles.Project} style={{["--company-color" as string]: color }} {...props}>
-			<div>
-				<strong>Client:</strong> <span className={styles.Client}>{client}</span>
-			</div>
+		<div
+			className={styles.Project}
+			style={{ ["--company-color" as string]: color }}
+			{...props}
+		>
+			{client ? (
+				<div>
+					<strong>Client:</strong>{" "}
+					<span className={styles.Client}>{client}</span>
+				</div>
+			) : undefined}
 			<div>
 				<strong>Worked on:</strong> {appDescription}
 			</div>

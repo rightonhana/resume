@@ -3,10 +3,69 @@
  */
 export const experience = [
 	{
+		company: "Zonar Systems",
+		color: "#0074C8",
+		jobTitle: "Software Developer Engineer",
+		period: "JAN, 2022 to PRESENT",
+		location: "United States",
+		experience: [
+			{
+				appDescription: "Maintenance an application for fleets's inspections and defects.",
+				task: [
+					"Performed bug fixing.",
+					"Developed new features.",
+					"Improved the overall code quality.",
+					"Performed deploys.",
+					"Dev Ops work, on call rotation.",
+				],
+				technologies: [
+					"Angular 12",
+					"TypeScript",
+					"I18Next",
+					"HTML5",
+					"SASS",
+					"Karma",
+					"Cypress",
+					"GIT",
+					"Kubernetes",
+					"Google Cloud Services",
+					"Data Dog",
+					"Auth0",
+					"Jira",
+					"Confluence",
+					"Scrum"
+				]
+			},
+			{
+				appDescription: "Create a Login Manager application",
+				task: [
+					"Created the application from scratch.",
+					"Setup back-end, front-end, and pipelines",
+					"Performed deploys."
+				],
+				technologies: [
+					"Angular 13",
+					"TypeScript",
+					"HTML5",
+					"SASS",
+					"Karma",
+					"GIT",
+					"Kubernetes",
+					"Google Cloud Services",
+					"Data Dog",
+					"Auth0",
+					"Jira",
+					"Confluence",
+					"Scrum"
+				]
+			}
+		]
+	},
+	{
 		company: "WideNet Consulting",
 		color: "#FD9B28",
 		jobTitle: "Angular Web Developer",
-		period: "AUG, 2021 to PRESENT",
+		period: "AUG, 2021 to DEC, 2021",
 		location: "United States",
 		experience: [
 			{

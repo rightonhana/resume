@@ -1,6 +1,6 @@
 export interface ProjectProps {
 	/** Client */
-	client: string;
+	client?: string;
 	/** Company color */
 	color: string;
 	/** App Description */

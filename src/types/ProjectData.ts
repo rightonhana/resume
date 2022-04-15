@@ -1,6 +1,6 @@
 export type ProjectData = {
 	/** Client name */
-	client: string;
+	client?: string;
 	/** App description */
 	appDescription: string;
 	/** Tasks */

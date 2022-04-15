@@ -31,6 +31,8 @@ export const technologies = [
 	"Auth0",
 	"Data Dog",
 	"Pendo Analytics",
+	"Google Cloud Services",
+	"Docker",
 	"Scrum",
 	"Kanban",
 	"NPM",

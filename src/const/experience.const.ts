@@ -29,6 +29,7 @@ export const experience = [
 					"GIT",
 					"Kubernetes",
 					"Google Cloud Services",
+					"Docker",
 					"Data Dog",
 					"Auth0",
 					"Jira",
@@ -39,6 +40,7 @@ export const experience = [
 			{
 				appDescription: "Create a Login Manager application",
 				task: [
+					"Designed the application architecture.",
 					"Created the application from scratch.",
 					"Setup back-end, front-end, and pipelines",
 					"Performed deploys."
@@ -52,6 +54,7 @@ export const experience = [
 					"GIT",
 					"Kubernetes",
 					"Google Cloud Services",
+					"Docker",
 					"Data Dog",
 					"Auth0",
 					"Jira",

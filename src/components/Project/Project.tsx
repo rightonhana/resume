@@ -15,9 +15,12 @@ export const Project: FC<ProjectProps> = ({
 	const tasks = task.map((activity, index) => <p key={index}>- {activity}</p>);
 	return (
 		<div className={styles.Project} style={{["--company-color" as string]: color }} {...props}>
-			<div>
-				<strong>Client:</strong> <span className={styles.Client}>{client}</span>
-			</div>
+			{client ? (
+				<div>
+					<strong>Client:</strong>{" "}
+					<span className={styles.Client}>{client}</span>
+				</div>
+			) : undefined}
 			<div>
 				<strong>Worked on:</strong> {appDescription}
 			</div>

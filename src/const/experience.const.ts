@@ -70,7 +70,7 @@ export const experience = [
 		company: "WideNet Consulting",
 		color: "#FD9B28",
 		jobTitle: "Angular Web Developer",
-		period: "AUG, 2021 to PRESENT",
+		period: "AUG, 2021 to DEC, 2021",
 		location: "United States",
 		experience: [
 			{

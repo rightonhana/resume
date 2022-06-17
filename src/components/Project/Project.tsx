@@ -11,10 +11,18 @@ export const Project: FC<ProjectProps> = ({
 	personalImpact,
   ...props
 }) => {
-	const technologiesUsed = technologies.map((skill, index) => index !== (technologies.length - 1) ? `${skill}, ` : `${skill}.`);
-	const tasks = task.map((activity, index) => <p key={index}>- {activity}</p>);
+	const technologiesUsed = technologies.map((skill, index) =>
+		index !== technologies.length - 1 ? `${skill}, ` : `${skill}.`
+	);
+	const tasks = task.map((activity, index) => (
+		<p key={index}>- {activity}</p>
+	));
 	return (
-		<div className={styles.Project} style={{["--company-color" as string]: color }} {...props}>
+		<div
+			className={styles.Project}
+			style={{ ["--company-color" as string]: color }}
+			{...props}
+		>
 			{client ? (
 				<div>
 					<strong>Client:</strong>{" "}

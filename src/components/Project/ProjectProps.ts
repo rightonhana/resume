@@ -9,4 +9,6 @@ export interface ProjectProps {
 	task: string[];
 	/** Technologies used */
 	technologies: string[];
+	/** Personal impact*/
+	personalImpact: string;
 };

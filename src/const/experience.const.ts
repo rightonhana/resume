@@ -10,6 +10,7 @@ export const experience = [
 		location: "United States",
 		experience: [
 			{
+				client: "Zonar Systems",
 				appDescription: "Maintenance an application for fleets's inspections and defects.",
 				task: [
 					"Performed bug fixing.",
@@ -39,6 +40,7 @@ export const experience = [
 				personalImpact: "Replaced deprecated dependencies with modern ones. Added pre-commit hooks so the rest of the developers can have the freedom to code in their own style and then unify the structure and formatting automatically once they commit their code. Performed bug fixing and developed new features.",
 			},
 			{
+				client: "Zonar Systems",
 				appDescription: "Create a Login Manager application",
 				task: [
 					"Designed the application architecture.",

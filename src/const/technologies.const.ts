@@ -12,6 +12,8 @@ export const technologies = [
 	"CSS Modules",
 	"UX",
 	"Angular Material UI",
+	"RxJS",
+	"NGXS",
 	"Jest",
 	"Karma",
 	"I18Next",

@@ -18,6 +18,7 @@ export const experience = [
 					"Improved the overall code quality.",
 					"Performed deploys.",
 					"Dev Ops work, on call rotation.",
+					"Helped the Design team updating SVG files and optimize them"
 				],
 				technologies: [
 					"Angular 12",
@@ -27,6 +28,8 @@ export const experience = [
 					"SASS",
 					"Karma",
 					"Cypress",
+					"RxJS",
+					"NGXS",
 					"GIT",
 					"Kubernetes",
 					"Google Cloud Services",
@@ -37,7 +40,7 @@ export const experience = [
 					"Confluence",
 					"Scrum"
 				],
-				personalImpact: "Replaced deprecated dependencies with modern ones. Added pre-commit hooks so the rest of the developers can have the freedom to code in their own style and then unify the structure and formatting automatically once they commit their code. Performed bug fixing and developed new features.",
+				personalImpact: "Replaced deprecated dependencies with modern ones, added pre-commit hooks, and enforced better TypeScript practices. Performed bug fixing and developed new features for an Europe release. Created monitors and SLOs for the web application. Helped to identify some architectural issues over the different applications and helped to design new solutions.",
 			},
 			{
 				client: "Zonar Systems",

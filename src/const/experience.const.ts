@@ -5,7 +5,7 @@ export const experience = [
 	{
 		company: "Zonar Systems",
 		color: "#0074C8",
-		jobTitle: "Software Developer Engineer",
+		jobTitle: "Software Developer Engineer I/II",
 		period: "JAN, 2022 to PRESENT",
 		location: "United States",
 		experience: [
@@ -13,12 +13,13 @@ export const experience = [
 				client: "Zonar Systems",
 				appDescription: "Maintenance an application for fleets's inspections and defects.",
 				task: [
+					"Led the web application development team.",
 					"Performed bug fixing.",
 					"Developed new features.",
 					"Improved the overall code quality.",
 					"Performed deploys.",
 					"Dev Ops work, on call rotation.",
-					"Helped the Design team updating SVG files and optimize them"
+					"Helped the Design team updating SVG files and optimize them."
 				],
 				technologies: [
 					"Angular 12",
